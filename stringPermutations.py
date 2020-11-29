@@ -12,7 +12,9 @@ def stringPermutations(string):
             del characters_list[index]
             characters_list.insert(i, character)
 
-            permutations.add(''.join(characters_list))
+            permutation = ''.join(characters_list)
+
+            permutations.add(permutation)
 
             del characters_list[i]
         
