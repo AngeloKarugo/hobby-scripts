@@ -1,4 +1,6 @@
 def stringPermutations(string):
+    """Get a list of all possible permutations of the 
+    characters in a string"""
 
     permutations = set()
 
